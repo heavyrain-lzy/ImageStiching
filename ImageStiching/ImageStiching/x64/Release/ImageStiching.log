@@ -1,0 +1,21 @@
+﻿生成启动时间为 2019/1/9 22:02:58。
+     1>项目“G:\ImageStiching\ImageStiching\ImageStiching.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ImageStiching\x64\Release\ImageStiching.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Program Files\MATLAB\R2016a\extern\lib\win64\microsoft" opencv_world340d.lib libmat.lib libmx.lib libmex.lib libeng.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\ImageStiching\x64\Release\ImageStiching.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ImageStiching\x64\Release\ImageStiching.lib" /MACHINE:X64 x64\Release\ImageStitch.obj
+         x64\Release\main.obj
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl cv::FlannBasedMatcher::add(class cv::_InputArray const &)" (?add@FlannBasedMatcher@cv@@UEAAXAEBV_InputArray@2@@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXAEBVString@1@AEBV_InputArray@1@@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "public: class cv::Mat & __cdecl cv::Mat::setTo(class cv::_InputArray const &,class cv::_InputArray const &)" (?setTo@Mat@cv@@QEAAAEAV12@AEBV_InputArray@2@0@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::warpPerspective(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_InputArray const &,class cv::Size_<int>,int,int,class cv::Scalar_<double> const &)" (?warpPerspective@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@0V?$Size_@H@1@HHAEBV?$Scalar_@N@1@@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "class cv::_InputOutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAAEBV_InputOutputArray@1@XZ)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::DescriptorMatcher::knnMatch(class cv::_InputArray const &,class std::vector<class std::vector<class cv::DMatch,class std::allocator<class cv::DMatch> >,class std::allocator<class std::vector<class cv::DMatch,class std::allocator<class cv::DMatch> > > > &,int,class cv::_InputArray const &,bool)" (?knnMatch@DescriptorMatcher@cv@@QEAAXAEBV_InputArray@2@AEAV?$vector@V?$vector@VDMatch@cv@@V?$allocator@VDMatch@cv@@@std@@@std@@V?$allocator@V?$vector@VDMatch@cv@@V?$allocator@VDMatch@cv@@@std@@@std@@@2@@std@@H0_N@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "class cv::Mat __cdecl cv::findHomography(class cv::_InputArray const &,class cv::_InputArray const &,int,double,class cv::_OutputArray const &,int,double)" (?findHomography@cv@@YA?AVMat@1@AEBV_InputArray@1@0HNAEBV_OutputArray@1@HN@Z)
+     1>ImageStitch.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::drawMatches(class cv::_InputArray const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > const &,class cv::_InputArray const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > const &,class std::vector<class cv::DMatch,class std::allocator<class cv::DMatch> > const &,class cv::_InputOutputArray const &,class cv::Scalar_<double> const &,class cv::Scalar_<double> const &,class std::vector<char,class std::allocator<char> > const &,int)" (?drawMatches@cv@@YAXAEBV_InputArray@1@AEBV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@01AEBV?$vector@VDMatch@cv@@V?$allocator@VDMatch@cv@@@std@@@4@AEBV_InputOutputArray@1@AEBV?$Scalar_@N@1@4AEBV?$vector@DV?$allocator@D@std@@@4@H@Z)
+     1>G:\ImageStiching\x64\Release\ImageStiching.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“G:\ImageStiching\ImageStiching\ImageStiching.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.57
